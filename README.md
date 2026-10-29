@@ -7,7 +7,7 @@
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This repository contains my submission for the **Cynbit Backend Developer Intern Assessment**.
 
@@ -17,7 +17,7 @@ Along with the audit report, I built a working, production-grade **TypeScript/No
 
 ---
 
-## 📁 Deliverables Directory
+## Deliverables Directory
 
 All required deliverables are organized into clear, readable documents:
 
@@ -30,7 +30,7 @@ All required deliverables are organized into clear, readable documents:
 
 ---
 
-## 🏗️ How the Remediation Pipeline Works
+## How the Remediation Pipeline Works
 
 Here is the exact request lifecycle implemented in [`src/index.ts`](src/index.ts):
 
@@ -88,7 +88,7 @@ Here is the exact request lifecycle implemented in [`src/index.ts`](src/index.ts
 
 ---
 
-## 🚀 Setup & Verification Guide
+## Setup & Verification Guide
 
 ### 1. Prerequisites
 - Node.js (v20+ recommended)
@@ -119,7 +119,7 @@ The server will start on port `3000` (or `PORT` environment variable).
 
 ---
 
-## 🧪 Testing with `curl` Commands
+## Testing with `curl` Commands
 
 ### 1. Test Health & Security Headers
 Verify that security headers are active and `X-Powered-By` is hidden:
@@ -181,7 +181,7 @@ curl -i http://localhost:3000/api/simulate-fault
 
 ---
 
-## ⚡ Automated All-in-One Test Script
+## Automated All-in-One Test Script
 
 You can also run all tests automatically in one command:
 ```bash
@@ -191,7 +191,7 @@ chmod +x test.sh
 
 ---
 
-## 📂 Source Code Structure
+## Source Code Structure
 
 ```
 src/
